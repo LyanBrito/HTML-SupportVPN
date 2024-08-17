@@ -1,36 +1,40 @@
 a:hover {
-  color: var(--red-200);
-  text-decoration: unset;
-}
-button:hover {
-  background-color: var(--red-200);
-  color: var(--white-100);
-}
-.sing-in-button:hover {
-  border: 1px solid var(--black-100);
-  background-color: unset;
-  color: unset;
-}
-.button-2:hover {
-  color: var(--red-200);
-  background-color: var(--white-100);
-}
-a:active {
-  color: var(--black-100);
-  font-size: 15px;
-}
-.sing-in-button:active {
-  background-color: var(--black-100);
-  color: var(--white-100);
-  padding: 13px 43px 13px 43px;
-}
-button:active {
-  background-color: var(--red-300);
-  padding: 13px 43px 13px 43px;
-}
-.button-2:active {
-  padding: 17.5px 75px 17.5px 75px;
-  color: var(--red-300);
-  border: 1px solid var(--red-300);
-  box-shadow: 0px 20px 19px -10px var(--red-shadow-200);
-}
+    color: var(--red-200);
+    text-decoration: unset;
+  }
+  button:hover {
+      background-color: var(--red-200);
+      color: var(--white-100);
+  }
+  .sing-in-button:hover {
+    border: 1px solid var(--black-100);
+      background-color: unset;
+      color: unset;
+  }
+  .button-2:hover{
+      color: var(--red-200);
+      background-color: var(--white-100);
+  
+  
+  }
+  a:active {
+    color: var(--black-100);
+    font-size: 15px;
+  }
+  .sing-in-button:active {
+      background-color: var(--black-100);
+      color: var(--white-100);
+      padding: 13px 43px 13px 43px;
+  
+  }
+  button:active {
+      background-color: var(--red-300);
+      padding: 13px 43px 13px 43px;
+  
+  }
+  .button-2:active{
+      padding: 17.5px 75px 17.5px 75px;
+      color: var(--red-300);
+      border: 1px solid var(--red-300);
+      box-shadow: 0px 20px 19px -10px var(--red-shadow-200);
+  }
