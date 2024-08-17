@@ -1,0 +1,17 @@
+:root {
+    --red-100: #ffecec;
+    --red-200: #f53838;
+    --red-300: #c71a1a;
+    --gray-100: #eeeff2;
+    --gray-200: #dddddd;
+    --gray-300: #4f5665;
+    --black-100: #0b132a;
+    --white-100: #fff;
+  }
+  /* #FFECEC; --red-200
+  #F53838; --red-100
+  #EEEFF2 --gray-100
+  #0D1025 --gradient
+  --gray-200: #4F5665;
+  #0B132A; --black-100
+  #DDDDDD --border */
