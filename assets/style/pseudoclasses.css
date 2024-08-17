@@ -1,0 +1,27 @@
+a:hover {
+    color: var(--red-200);
+    text-decoration: unset;
+  }
+  .sing-in-button:hover {
+    border: 1px solid var(--black-100);
+  }
+  .sing-up-button:hover {
+    background-color: var(--red-200);
+    color: var(--white-100);
+  }
+  
+  a:active {
+    color: var(--black-100);
+    font-size: 15px;
+  }
+  .sing-in-button:active {
+      background-color: var(--black-100);
+      color: var(--white-100);
+      padding: 11px 43px 11px 43px;
+  
+  }
+  .sing-up-button:active {
+      background-color: var(--red-300);
+      padding: 11px 43px 11px 43px;
+  
+  }
