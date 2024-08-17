@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  transition: all 0.16s ease-in;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: var(--white-100);
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 145px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black-100);
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 8.62px;
+  gap: 40px;
+}
+a {
+  text-decoration: NONE;
+  font-size: 16px;
+  color: var(--gray-300);
+}
+.button-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.sing-in-button,
+.sing-up-button {
+  font-size: 16px;
+  color: var(--black-100);
+  border: 1px solid var(--white-100);
+  font-weight: 500;
+  padding: 13px 45px 13px 45px;
+  background-color: unset;
+  border-radius: 50px;
+}
+.sing-up-button {
+  color: var(--red-200);
+  border: 1px solid var(--red-200);
+  border-radius: 50px;
+}
