@@ -100,7 +100,7 @@ section {
   box-shadow: 0px 41px 82px -4px var(--black-shadow-100);
 }
 
-.info-wrapper > p {
+.info-wrapper>p {
   font-size: 20px;
 }
 
@@ -111,7 +111,7 @@ p {
   color: var(--gray-300);
 }
 
-h1 {
+section>h6, h1 {
   font-size: 35px;
   line-height: 50px;
   font-weight: 500;
@@ -186,7 +186,14 @@ article {
   background-color: var(--white-200);
   width: 100%;
   height: 3120px;
+  padding-top: 80.27px;
+  gap: 50px;
   justify-content: flex-start;
+}
+
+.section-container>section>h6 {
+  padding-top: 100px;
+
 }
 
 .section-container>section>p {
@@ -194,10 +201,15 @@ article {
   width: 555px;
 }
 
+.section-container>section>img {
+  padding-top: 135.81px;
+
+}
+
 .section-container>section {
   flex-direction: column;
   width: unset;
-  margin-top: 80.27px;
+  height: auto;
   box-shadow: unset;
   gap: 20px;
 }
@@ -243,4 +255,13 @@ article {
   display: flex;
   flex-direction: column;
   height: 280px;
+}
+
+.carousel {
+  display: flex;
+  gap: 36px;
+  width: 1136px;
+  height: 208.32px;
+  justify-content: center;
+
 }
