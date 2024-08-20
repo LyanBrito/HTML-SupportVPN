@@ -40,3 +40,7 @@ button:active {
 .card > button:hover {
   box-shadow: 0px 20px 19px -10px var(--red-shadow-100);
 }
+.carousel>img{
+  width: 110%;
+
+}
